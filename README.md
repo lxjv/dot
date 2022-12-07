@@ -6,7 +6,7 @@ Other things i use that arent here, like pre-packaged frameworks and presets are
 
 ## Shell
 
-I use the FiSH {https://fishshell.com/} shell, with Starship Prompt {https://starship.rs} (Pastel Powerline preset)
+I use the FiSH { https://fishshell.com/ } shell, with Starship Prompt { https://starship.rs } (Pastel Powerline preset)
 
 ## Editors
 
