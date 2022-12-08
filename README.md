@@ -2,8 +2,6 @@
 These are the dotfiles i use on my current machine, Oxygen.
 I'm running Arch Linux with KDE Plasma as my enviroment, and using Tabby as my terminal (for now at least)
 
-Other things i use that arent here, like pre-packaged frameworks and presets are listed below
-
 ## Shell
 
 I use the FiSH { https://fishshell.com/ } shell, with Starship Prompt { https://starship.rs } (Pastel Powerline preset)
