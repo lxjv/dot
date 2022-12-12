@@ -4,7 +4,7 @@ I'm running Arch Linux with KDE Plasma as my enviroment, and using Tabby as my t
 
 ## Shell
 
-I use the FiSH { https://fishshell.com/ } shell, with Starship Prompt { https://starship.rs } (Pastel Powerline preset)
+I use the FiSH { https://fishshell.com/ } shell, with Starship Prompt { https://starship.rs }
 
 ## Editors
 
