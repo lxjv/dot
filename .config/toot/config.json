@@ -1,0 +1,18 @@
+{
+ "active_user": "la@social.lol",
+ "apps": {
+  "social.lol": {
+   "base_url": "https://social.lol",
+   "client_id": "a1NXU-WBK1PPe5IASkoz06sDuSabrjUNg-V4DzUIfdI",
+   "client_secret": "vtGknp-gbw5SyOKjYHExcuHgOMXomN5mn56CJMspHnk",
+   "instance": "social.lol"
+  }
+ },
+ "users": {
+  "la@social.lol": {
+   "access_token": "mJPiyKedcZDFWbQ2ugDRmXw86rgsMa6u_lH8MSfg7To",
+   "instance": "social.lol",
+   "username": "la"
+  }
+ }
+}
