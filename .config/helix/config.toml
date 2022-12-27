@@ -1,0 +1,12 @@
+# Helix Config - mostly stolen from this youtube video
+# https://www.youtube.com/watch?v=aiSI6vdZWgE
+
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
