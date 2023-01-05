@@ -58,10 +58,8 @@ set dsp.ao.wav_counter=1
 set dsp.ao.wav_dir=/home/la
 set dsp.jack.resampling_quality=2
 set dsp.jack.server_name=
-set dsp.oss.device=
 set follow=false
-set format_clipped_text=…
-set format_current= %a - %l%! - %n. %t%= %y 
+set format_current= %a - %l -%3n. %t%= %y 
 set format_playlist= %-21%a %3n. %t%= %y %d %{?X!=0?%3X ?    }
 set format_playlist_va= %-21%A %3n. %t (%a)%= %y %d %{?X!=0?%3X ?    }
 set format_statusline= %{status} %{?show_playback_position?%{position} %{?duration?/ %{duration} }?%{?duration?%{duration} }}- %{total} %{?bpm>0?at %{bpm} BPM }%{?volume>=0?vol: %{?lvolume!=rvolume?%{lvolume},%{rvolume} ?%{volume} }}%{?stream?buf: %{buffer} }%{?show_current_bitrate & bitrate>=0? %{bitrate} kbps }%=%{?repeat_current?repeat current?%{?play_library?%{playlist_mode} from %{?play_sorted?sorted }library?playlist}} | %1{continue}%1{follow}%1{repeat}%1{shuffle} 
@@ -74,12 +72,13 @@ set format_treewin_artist=%a
 set icecast_default_charset=ISO-8859-1
 set id3_default_charset=ISO-8859-1
 set input.aac.priority=50
+set input.cdio.cddb_url=freedb.freedb.org:8880
+set input.cdio.priority=50
 set input.cue.priority=50
 set input.ffmpeg.priority=30
 set input.flac.priority=50
 set input.mad.priority=55
 set input.modplug.priority=50
-set input.mp4.priority=50
 set input.mpc.priority=50
 set input.opus.priority=50
 set input.vorbis.priority=50
@@ -89,14 +88,11 @@ set lib_add_filter=
 set lib_sort=albumartist date album discnumber tracknumber title filename play_count
 set mixer.alsa.channel=
 set mixer.alsa.device=
-set mixer.oss.channel=PCM
-set mixer.oss.device=
 set mixer.pulse.restore_volume=1
 set mouse=false
 set mpris=true
 set output_plugin=pulse
 set passwd=
-set pause_on_output_change=false
 set pl_sort=
 set play_library=true
 set play_sorted=false
@@ -114,7 +110,7 @@ set show_current_bitrate=false
 set show_hidden=false
 set show_playback_position=true
 set show_remaining_time=false
-set shuffle=off
+set shuffle=false
 set skip_track_info=false
 set smart_artist_sort=true
 set softvol=false

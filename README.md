@@ -11,9 +11,11 @@ I use the FiSH { https://fishshell.com/ } shell, with Starship Prompt { https://
 
 ## Editors
 
-I use 3 editors: Neovim, Doom Emacs and Helix
+I use 4 editors: Neovim, VScode, Doom Emacs and Helix
 
-I switch between NV and Helix often as my general editor but Emacs is always my choice for journaling
+I switch between NV and Helix often as my general editor but Emacs is always my choice for journaling.
+
+VScode is only used for web development, as i like it for that.
 
 ## Music
 
